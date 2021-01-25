@@ -1,0 +1,23 @@
+nav {
+  background: black;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  margin-left: 0px;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.link {
+  padding: 0px 10px;
+  margin: 0px 0xp;
+  display: inline-block;
+  color: white;
+}
