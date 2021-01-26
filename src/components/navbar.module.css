@@ -1,8 +1,23 @@
-nav {
-  background: black;
+.nav {
+  top:0;
+  background: rgb(61, 61, 61);
   padding: 20px 0px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+
+/* .margin{
+  margin-bottom: 60px;
+} */
+
+.AnchorLink {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 7px;
 }
 
 ul {

@@ -3,14 +3,20 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import styles from "./layout.modules.css"
 import "../styles/index.scss"
+import { useMediaQuery } from "react-responsive"
 
 const Layout = props => {
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 650px)",
+  })
   return (
-    <div className={styles.bg}>
-      <Navbar />
-      {props.children}
-      <Footer />
-    </div>
+    isDesktop && (
+      <div className={styles.marginTop}>
+        <Navbar />
+        {props.children}
+        <Footer />
+      </div>
+    )
   )
 }
 
