@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../../components/layout"
 import { useMediaQuery } from "react-responsive"
 
 const BlogPage = () => {
@@ -13,9 +12,7 @@ const BlogPage = () => {
     <>
       {isMobile && <h1 className="fullScreen" id="blog" >Blog</h1>}
       {isDesktop && (
-        <Layout>
           <h1 id="blog">Blog</h1>
-        </Layout>
       )}
     </>
   )

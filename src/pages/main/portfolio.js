@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../../components/layout"
 import { useMediaQuery } from "react-responsive"
 
 const Portfolio = () => {
@@ -13,9 +12,7 @@ const Portfolio = () => {
     <>
       {isMobile && <h1  className="fullScreen" id="portfolio" >Portfolio</h1>}
       {isDesktop && (
-        <Layout>
-          <h1>About</h1>
-        </Layout>
+          <h1>Portfolio</h1>
       )}
     </>
   )
