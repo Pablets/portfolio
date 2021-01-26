@@ -1,5 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
+import About from "./about"
+import Blog from "./blog"
+import Contact from "./contact"
+import Portfolio from "./portfolio"
 import { useMediaQuery } from "react-responsive"
 
 const Home = () => {
@@ -13,7 +17,15 @@ const Home = () => {
 
   return (
     <>
-      {isMobile && <div>I am running gatsby from mobile!!!</div>}
+      {isMobile && (
+        <>
+          <div>I am running gatsby from mobile!!!</div>
+          <About />
+          <Portfolio />
+          <Blog />
+          <Contact />
+        </>
+      )}
       {isDesktop && (
         <Layout>
           <div>I am running gatsby!!!</div>
