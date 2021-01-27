@@ -4,7 +4,7 @@ import Blog from "./blog"
 import Contact from "./about"
 import Portfolio from "./portfolio"
 import { useMediaQuery } from "react-responsive"
-import "../../styles/index.scss"
+import "../styles/index.scss"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import styles from "./about.module.css"
 
@@ -31,7 +31,7 @@ const Home = () => {
               Methodologies: AGILE | SCRUM.
             </p>
             <button>
-              <AnchorLink to={isMobile ? "/main#about" : "/main/about"}>
+              <AnchorLink to={isMobile ? "/#about" : "/about"}>
                 About me
               </AnchorLink>
             </button>
@@ -58,7 +58,7 @@ const Home = () => {
               <button>
                 <AnchorLink
                   className={`${styles.a}`}
-                  to={isMobile ? "/main#about" : "/main/portfolio"}
+                  to={isMobile ? "/#about" : "/portfolio"}
                 >
                   My work
                 </AnchorLink>

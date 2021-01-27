@@ -28,7 +28,7 @@ const Navbar = () => {
           <ul>
             {routes.map((r, i) => (
               <li key={i * (i + 1)}>
-                <AnchorLink className={styles.AnchorLink} to={`/main#${r[1]}`}>
+                <AnchorLink className={styles.AnchorLink} to={`/#${r[1]}`}>
                   {r[0]}
                 </AnchorLink>
               </li>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <ul>
             {routes.map((r, i) => (
               <li key={i * (i + 2)}>
-                <Link className={styles.AnchorLink} to={`/main/${r[1]}`}>
+                <Link className={styles.AnchorLink} to={`/${r[1]}`}>
                   {r[0]}
                 </Link>
               </li>
