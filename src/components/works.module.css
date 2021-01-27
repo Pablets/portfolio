@@ -1,0 +1,21 @@
+*{
+  color: white;
+}
+
+ul{
+  display: block;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+
+li{
+  display: block;
+}
+
+
+
+.container{
+  width: 40vw;
+}

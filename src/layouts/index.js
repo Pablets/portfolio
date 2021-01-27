@@ -1,10 +1,12 @@
 import React from "react"
 import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions"
 import Navbar from "../components/navbar"
+import styles from "./index.module.css"
 
 const Layout = ({ location, children }) => {
   return (
     <TransitionProvider
+      className={styles.blackBg}
       location={location}
       mode="successive"
       enter={{
@@ -28,7 +30,7 @@ const Layout = ({ location, children }) => {
       }}
     >
       <Navbar />
-      <TransitionViews>{children}</TransitionViews>
+      <TransitionViews className={styles.blackBg}>{children}</TransitionViews>
     </TransitionProvider>
   )
 }

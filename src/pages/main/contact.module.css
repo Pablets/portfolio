@@ -1,0 +1,49 @@
+.hero {
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../../../public/images/man-guy-alone-sitting-evening-lonely.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText {
+  width: auto;
+}
+
+.h1,
+.h3,
+.p {
+  text-align: left;
+  color: white;
+}
+
+.h3 {
+  font-size: 3rem;
+}
+
+.h1 {
+  margin-top: -10px;
+  font-size: 8rem;
+  text-indent: -7px;
+}
+
+.p {
+  margin-top: 15px;
+  font-size: 1.8rem;
+  letter-spacing: 2.5px;
+}
+
+button {
+  margin-top: 40px;
+}
+
+.a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
