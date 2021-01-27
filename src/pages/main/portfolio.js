@@ -6,9 +6,6 @@ import Works from "../../components/works"
 
 const Portfolio = () => {
 
-  console.log(works)
-
-
   const isMobile = useMediaQuery({
     query: "(max-device-width: 649px)",
   })

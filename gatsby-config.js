@@ -9,6 +9,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-layout`,
+    // `gatsby-transformer-sharp`,
+    // `gatsby-plugin-sharp`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: path.join(__dirname, `src`, `images`),
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {

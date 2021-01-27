@@ -1,19 +1,36 @@
-*{
+* {
   color: white;
 }
 
-ul{
-  display: block;
-  list-style: none;
+.box {
   display: flex;
   flex-direction: row;
-  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-shrink: 1;
 }
 
-li{
-  display: block;
-}
-
-.container{
+.container {
   width: 40vw;
+  background-color: rgb(34, 32, 39);
+  margin-top: 30px;
+}
+
+.h1, .h3, .p{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button{
+  background-color: gray;
+  margin-left: calc(100% - 105px);
+}
+
+.button a{
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  width: 90px;
 }
