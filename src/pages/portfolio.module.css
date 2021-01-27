@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   max-width: 100%;
-  background-image: url("../../public/images/man-guy-alone-sitting-evening-lonely.jpg");
+  background-image: url("../images/man-guy-alone-sitting-evening-lonely.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -57,7 +57,6 @@ button {
 }
 
 @media screen and (max-width: 460px){
-
   .h1{
     font-size: 4rem;
   }
